@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  private showC : boolean =false;
-  private showL: boolean =true;
+  public showC : boolean =false;
+  public showL: boolean =true;
 
 
   constructor() { }
